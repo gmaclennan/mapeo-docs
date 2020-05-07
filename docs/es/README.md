@@ -19,7 +19,7 @@ description: >-
 
  Mapeo leverages the same easy-to-use editor and flexible data structure as OpenStreetMap. It is powered by a peer-to-peer database that enables offline collaboration and control over data sharing.
 
-## Supporting indigenous rights, throughout the world.
+## Apoyo a los derechos indígenas en todo el mundo.
 
 ![](.gitbook/assets/mapeo-indigenous.png)
 
