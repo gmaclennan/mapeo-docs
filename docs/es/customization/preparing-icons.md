@@ -22,7 +22,7 @@ From Illustrator, File &gt; Export
 * With the artboard box ticked
 * Additional settings as below. These are how Mapbox says to export icons for svgs to use on their maps too.
 
-![When exporting icons from Adobe Illustrator](https://github.com/gmaclennan/mapeo-docs/tree/b895606f8de0f8e815b04194aee0b28148c70b7a/docs/en/.gitbook/assets/screen_shot_2019-04-15_at_4.47.37_pm.png)
+![When exporting icons from Adobe Illustrator](.gitbook/assets/screen_shot_2019-04-15_at_4.47.37_pm.png)
 
 ### Troubleshooting
 
@@ -53,5 +53,4 @@ boundary-100px.svg  cave-100px.svg      estrella-100px.svg   hills-100px.svg    
 boundary-24px.svg   cave-24px.svg       estrella-24px.svg    hills-24px.svg       lake-24px.svg      plant-24px.svg   special-site-24px.svg   threat-24px.svg
 ```
 
-![](https://github.com/gmaclennan/mapeo-docs/tree/b895606f8de0f8e815b04194aee0b28148c70b7a/docs/en/.gitbook/assets/screenshot-from-2020-03-18-16-45-27.png)
-
+![](.gitbook/assets/screenshot-from-2020-03-18-16-45-27.png)
