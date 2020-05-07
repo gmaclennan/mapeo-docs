@@ -165,7 +165,7 @@ $ npm run -s build
 
 You'll also see a `.mapeosettings` file inside of the `build` directory.
 
-![This is the .mapeosettings file you&apos;ll need in the next section](.gitbook/assets/screenshot-from-2020-03-18-17-12-16.png)
+![This is the .mapeosettings file you&apos;ll need in the next section](https://github.com/gmaclennan/mapeo-docs/tree/f04e4854fead8b7af1fab1bcc114238299702c48/docs/en/customization/.gitbook/assets/screenshot-from-2020-03-18-17-12-16.png)
 
 ### What is a .mapeosettings file?
 
@@ -175,7 +175,7 @@ A `.mapeosettings` file is a **tar** file, similar to a zip file. You can see th
 
 If you already have done this and you are recreating presets from scratch, you may want to purge node\_modules and install updated versions of the dependencies
 
-![To update to latest dependencies, delete this folder and reinstall](.gitbook/assets/screen_shot_2019-05-07_at_11.01.07_am.png)
+![To update to latest dependencies, delete this folder and reinstall](https://github.com/gmaclennan/mapeo-docs/tree/f04e4854fead8b7af1fab1bcc114238299702c48/docs/en/customization/.gitbook/assets/screen_shot_2019-05-07_at_11.01.07_am.png)
 
 In Mac or Linux, in the terminal:
 
@@ -185,3 +185,4 @@ npm install
 ```
 
 If you're having more issues, please [open an issue on the GitHub repository](https://github.com/digidem/mapeo-default-settings/issues/new) or e-mail our support hotline.
+
