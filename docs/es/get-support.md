@@ -10,7 +10,7 @@ description: We're here to help!
 
 **Slack**: [https://slack.digital-democracy.org](https://slack.digital-democracy.org)
 
-**IRC** \#ddem on freenode  [https://webchat.freenode.net/](https://webchat.freenode.net/)
+**IRC** \#ddem on freenode [https://webchat.freenode.net/](https://webchat.freenode.net/)
 
 Support is available 9:00-0:00 GMT, which covers 9:00-17:00 GMT and 9am-5pm during US West-Pacific Time. Unfortunately, we are unlikely to respond between midnight and 9:00 GMT.
 
@@ -25,12 +25,4 @@ Great! we're always interested in hearing from you and making MAPEO better
 1. [Sign up on our community discussion email list](https://lists.riseup.net/www/subscribe/mapeo-en)
 2. [Add a feature request to Canny](https://mapeo.canny.io)
 3. Open an issue on GitHub for [Mapeo Desktop](https://github.com/digidem/mapeo-desktop/issues/new?template=feature_request.md) or[ Mapeo Mobile](https://github.com/digidem/mapeo-mobile/issues/new)
-
-
-
-
-
-
-
-
 
