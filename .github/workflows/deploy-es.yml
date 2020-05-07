@@ -1,0 +1,25 @@
+# This workflow creates a branch from the ES folder
+
+name: Spanish [ES] Translations
+
+# Runs on push to master, only when files under `docs/es` are modified
+on:
+  push:
+    branches: [ master ]
+    paths:
+      - 'docs/es/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    # Create branch from docs/es folder
+    - name: Run a multi-line script
+      env:
+        SUBPATH: docs/es
+      run: |
+        git subtree split --prefix $SUBPATH -b $SUBPATH
+        git push -f origin $SUBPATH:$SUBPATH
