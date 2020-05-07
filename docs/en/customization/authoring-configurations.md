@@ -15,7 +15,7 @@ _Time it takes: \(5min\)_
 ```text
 wget https://github.com/digidem/mapeo-default-settings/archive/v2.1.0.zip 
 unzip v2.1.0.zip 
-mv mapeo-default-settings-v2.1.0 mapeo-settings-myprojectname 
+mv mapeo-default-settings-v2.1.0 mapeo-settings-myprojectname
 ```
 
 ## Configuration Contents
@@ -26,7 +26,7 @@ mv mapeo-default-settings-v2.1.0 mapeo-settings-myprojectname
 * icons
 * presets
 
-#### These are the files that live in the top level folder 
+#### These are the files that live in the top level folder
 
 * defaults.json
 * metadata.json
@@ -37,9 +37,9 @@ mv mapeo-default-settings-v2.1.0 mapeo-settings-myprojectname
 
 _Time it takes: \(20 min - 20 days. Estimate: 20 min per category\)_
 
-### In `fields` directory customize the `.json` files 
+### In `fields` directory customize the `.json` files
 
-In the fields directory, each .json file needs a `key`, `type`, `label`, and `placeholder.` 
+In the fields directory, each .json file needs a `key`, `type`, `label`, and `placeholder.`
 
 `type` can be one of `select_multiple`, `select_one`, `text`, or `textarea`
 
@@ -138,7 +138,7 @@ Type, 'cd\`, then a space, then drag and drop the folder where the prepared asse
 cd /Users/jen/Documents/Dd_LOCAL_project-files/Dd-Tools/Mapeo/Presets/CREATION\\ LAB/Strathcona-KX-v1.0.0
 ```
 
-You will then be ready to run scripts directly in the folder. 
+You will then be ready to run scripts directly in the folder.
 
 ```text
 $ npm install
@@ -149,8 +149,6 @@ npm run -s build
 ```
 
 This -s tells npm to be silent, so that you only see errors that are meaningful to you.
-
-
 
 If you succeeded, you'll see the following output and a new folder called `build` with a `.mapeosettings` file inside of it.
 
@@ -163,12 +161,11 @@ $ npm run -s build
 ✓ Generated png sprite for Mapbox (81ms)
 ✓ Generated png icons for Mapeo Mobile (607ms)
 ✓ Successfully created file 'build/mapeo-default-settings-v2.1.0.mapeosettings' (total 1299ms)
-
 ```
 
- You'll also see  a `.mapeosettings` file inside of the `build` directory.
+You'll also see a `.mapeosettings` file inside of the `build` directory.
 
-![This is the .mapeosettings file you&apos;ll need in the next section](../.gitbook/assets/screenshot-from-2020-03-18-17-12-16.png)
+![This is the .mapeosettings file you&apos;ll need in the next section](https://github.com/gmaclennan/mapeo-docs/tree/b895606f8de0f8e815b04194aee0b28148c70b7a/docs/en/.gitbook/assets/screenshot-from-2020-03-18-17-12-16.png)
 
 ### What is a .mapeosettings file?
 
@@ -178,7 +175,7 @@ A `.mapeosettings` file is a **tar** file, similar to a zip file. You can see th
 
 If you already have done this and you are recreating presets from scratch, you may want to purge node\_modules and install updated versions of the dependencies
 
-![To update to latest dependencies, delete this folder and reinstall](../.gitbook/assets/screen_shot_2019-05-07_at_11.01.07_am.png)
+![To update to latest dependencies, delete this folder and reinstall](https://github.com/gmaclennan/mapeo-docs/tree/b895606f8de0f8e815b04194aee0b28148c70b7a/docs/en/.gitbook/assets/screen_shot_2019-05-07_at_11.01.07_am.png)
 
 In Mac or Linux, in the terminal:
 

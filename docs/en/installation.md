@@ -13,7 +13,7 @@
 3. Wait for installer to finish, which will open the Mapeo on completion
 4. You may need to click **Allow Access** if you have Windows Defender enabled
 
-![](.gitbook/assets/allow-access.png)
+![](https://github.com/gmaclennan/mapeo-docs/tree/b895606f8de0f8e815b04194aee0b28148c70b7a/docs/en/.gitbook/assets/allow-access.png)
 
 ## Install on Mac
 
@@ -23,13 +23,11 @@
 4. Find Mapeo in your **Applications** folder and right click to open
 5. Click **Open**—this verification only happens the first time you use Mapeo
 
-![](.gitbook/assets/instructions.png)
+![](https://github.com/gmaclennan/mapeo-docs/tree/b895606f8de0f8e815b04194aee0b28148c70b7a/docs/en/.gitbook/assets/instructions.png)
 
 ## Install on Linux
 
 1. [Download for Linux](https://www.github.com/digidem/mapeo-desktop/releases)
 2. Pick the release that works for you. We recommend using the `.deb` package for most systems.
 3. Double-click the `.deb` installer.
-
-
 

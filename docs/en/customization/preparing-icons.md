@@ -6,7 +6,7 @@ description: 'Time it takes: (30 min - 30 days. Estimate: 30 min per category)'
 
 ## What is an icon?
 
-Each of the presets you create needs to be assigned an icon, and these all need to be saved as `.svg` files.  You can assign the same icon to various presets, or they can each have their own individual one.
+Each of the presets you create needs to be assigned an icon, and these all need to be saved as `.svg` files. You can assign the same icon to various presets, or they can each have their own individual one.
 
 [See example icons](https://github.com/digidem/mapeo-default-settings/tree/master/icons) created for our default 'jungle' configuration.
 
@@ -22,7 +22,7 @@ From Illustrator, File &gt; Export
 * With the artboard box ticked
 * Additional settings as below. These are how Mapbox says to export icons for svgs to use on their maps too.
 
-![When exporting icons from Adobe Illustrator](../.gitbook/assets/screen_shot_2019-04-15_at_4.47.37_pm.png)
+![When exporting icons from Adobe Illustrator](https://github.com/gmaclennan/mapeo-docs/tree/b895606f8de0f8e815b04194aee0b28148c70b7a/docs/en/.gitbook/assets/screen_shot_2019-04-15_at_4.47.37_pm.png)
 
 ### Troubleshooting
 
@@ -39,7 +39,7 @@ Each icon can be duplicated and renamed so that there is one of each. They are o
 
 ## Saving icons
 
-Create a directory named `icons` and put all icons in there according to the above naming convention. 
+Create a directory named `icons` and put all icons in there according to the above naming convention.
 
 The directory should look like this:
 
@@ -53,5 +53,5 @@ boundary-100px.svg  cave-100px.svg      estrella-100px.svg   hills-100px.svg    
 boundary-24px.svg   cave-24px.svg       estrella-24px.svg    hills-24px.svg       lake-24px.svg      plant-24px.svg   special-site-24px.svg   threat-24px.svg
 ```
 
-![](../.gitbook/assets/screenshot-from-2020-03-18-16-45-27.png)
+![](https://github.com/gmaclennan/mapeo-docs/tree/b895606f8de0f8e815b04194aee0b28148c70b7a/docs/en/.gitbook/assets/screenshot-from-2020-03-18-16-45-27.png)
 

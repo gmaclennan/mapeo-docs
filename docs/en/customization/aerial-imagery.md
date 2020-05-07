@@ -36,7 +36,7 @@ The automatic importer attempts to use `.jpg`, `.png`, and `.jpeg` as the format
 
 It will accept `.tar` files. It does not currently support the `.mbtiles` format, [Pull Requests welcome](https://github.com/digidem/mapeo-desktop/issues/103).
 
-![](../.gitbook/assets/import.png)
+![](https://github.com/gmaclennan/mapeo-docs/tree/b895606f8de0f8e815b04194aee0b28148c70b7a/docs/en/.gitbook/assets/import.png)
 
 ### Manual Import
 
@@ -73,7 +73,7 @@ Once you've imported your tiles, in the Map Editor, you need to follow some more
 2. Choose 'Custom' from the bottom of the list \(you need to scroll quite a lot\).
 3. Input the appropriate URL \(continue reading\)
 
-![](../.gitbook/assets/edit-custom-imagery.png)
+![](https://github.com/gmaclennan/mapeo-docs/tree/b895606f8de0f8e815b04194aee0b28148c70b7a/docs/en/.gitbook/assets/edit-custom-imagery.png)
 
 If you used a `tar` file, you can use the default setting:
 

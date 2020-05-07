@@ -4,7 +4,7 @@
 
 A `.mapeosettings` file is a **tar** file, similar to a zip file. You can see the contents of the file by changing the file extension to `.tar` and using any application that can extract tar files.
 
-## Testing 
+## Testing
 
 Before loading your preset configuration file into the phone, use `mapeo-settings lint` to test your files to make sure they will compile on the phone.
 
@@ -58,7 +58,7 @@ Now, you'll need to place the presets folder in the appropriate directory on the
 adb push ./mapeo-settings-myproject-v1.0.0/* /sdcard/Android/data/com.mapeo/files/presets/default
 ```
 
-Did it work? Test that the files are available on the device by using the shell. 
+Did it work? Test that the files are available on the device by using the shell.
 
 ```text
 $ adb shell ls /sdcard/Android/data/com.mapeo/files/presets/default
@@ -86,7 +86,7 @@ Mapeo Desktop supports importing `.mapeosettings` files in the user interface.
 
 After you've created your settings file, you can import it by navigating to **File-&gt;Import Configuration...**.
 
-![](../.gitbook/assets/configuration-desktop.png)
+![](https://github.com/gmaclennan/mapeo-docs/tree/b895606f8de0f8e815b04194aee0b28148c70b7a/docs/en/.gitbook/assets/configuration-desktop.png)
 
 ### Manual import
 
@@ -108,6 +108,4 @@ presets.json
 icons.svg
 etc...
 ```
-
-
 
