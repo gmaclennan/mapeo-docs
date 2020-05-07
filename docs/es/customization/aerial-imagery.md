@@ -35,7 +35,7 @@ The automatic importer attempts to use `.jpg`, `.png`, and `.jpeg` as the format
 
 It will accept `.tar` files. It does not currently support the `.mbtiles` format, [Pull Requests welcome](https://github.com/digidem/mapeo-desktop/issues/103).
 
-![](https://github.com/gmaclennan/mapeo-docs/tree/b895606f8de0f8e815b04194aee0b28148c70b7a/docs/en/.gitbook/assets/import.png)
+![](.gitbook/assets/import.png)
 
 ### Manual Import
 
@@ -72,7 +72,7 @@ Once you've imported your tiles, in the Map Editor, you need to follow some more
 2. Choose 'Custom' from the bottom of the list \(you need to scroll quite a lot\).
 3. Input the appropriate URL \(continue reading\)
 
-![](https://github.com/gmaclennan/mapeo-docs/tree/b895606f8de0f8e815b04194aee0b28148c70b7a/docs/en/.gitbook/assets/edit-custom-imagery.png)
+![](.gitbook/assets/edit-custom-imagery.png)
 
 If you used a `tar` file, you can use the default setting:
 
@@ -141,4 +141,3 @@ This example downloads the area around Oakland, California. You can tweak the pa
 The above zoom level figures are very rough. Experiment with small radii and see how the results look: you can open the resulting JPGs or PNGs with an image viewer and see if they look appropriate to your needs.
 
 Map tile providers offer these satellite images for free; please don't abuse their generosity by downloading more than what you need.
-
