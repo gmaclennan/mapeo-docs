@@ -35,5 +35,3 @@ description: >-
 
 * [mapeo-docs](https://github.com/digidem/Mapeo-docs): Docs site for mapeo
 
-## 
-
