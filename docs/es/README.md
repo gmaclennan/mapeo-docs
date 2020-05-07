@@ -5,27 +5,26 @@ description: >-
 
 # Introduction
 
-![](https://github.com/gmaclennan/mapeo-docs/tree/b895606f8de0f8e815b04194aee0b28148c70b7a/docs/en/.gitbook/assets/screenshot.png)
+![](.gitbook/assets/screenshot.png)
 
 ### Crear y editar mapas juntos
 
-![](https://github.com/gmaclennan/mapeo-docs/tree/b895606f8de0f8e815b04194aee0b28148c70b7a/docs/en/.gitbook/assets/mapeo-offline.png)
+![](.gitbook/assets/mapeo-offline.png)
 
 Mapeo is an open source, local-first map editor. Mapeo makes it easy for individuals or teams to create maps and organize stories and knowledge.
 
 ## Built on solid foundations
 
-![](https://github.com/gmaclennan/mapeo-docs/tree/b895606f8de0f8e815b04194aee0b28148c70b7a/docs/en/.gitbook/assets/mapeo-osm.png)
+![](.gitbook/assets/mapeo-osm.png)
 
 Mapeo leverages the same easy-to-use editor and flexible data structure as OpenStreetMap. It is powered by a peer-to-peer database that enables offline collaboration and control over data sharing.
 
 ## Apoyo a los derechos indígenas en todo el mundo.
 
-![](https://github.com/gmaclennan/mapeo-docs/tree/b895606f8de0f8e815b04194aee0b28148c70b7a/docs/en/.gitbook/assets/mapeo-indigenous.png)
+![](.gitbook/assets/mapeo-indigenous.png)
 
 We are building Mapeo with indigenous communities in the Amazon, who asked for an easier way to create and edit their own maps so as to defend their lands and cultures.
 
 We are building Mapeo in close collaboration with our partners [Amazon Frontlines](https://amazonfrontlines.org/) and [Alianza Ceibo](https://alianzaceibo.org/) in the Ecuadorian Amazon, working specifically with the Waorani, Cofan and Siekopai peoples. Technical partners include [Development Seed](https://developmentseed.org/), the [Dat Project](https://datproject.org/) and more.
 
 The development of Mapeo has been made possible due to generous grants from the [Knight Foundation](https://knightfoundation.org/), [Abundance Foundation](http://www.abundance.org/) and [Leonardo DiCaprio Foundation](https://www.leonardodicaprio.org/).
-
