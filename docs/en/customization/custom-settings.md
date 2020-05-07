@@ -22,7 +22,7 @@ Now, you are ready to load your settings to Mapeo Mobile.
 
 ### Using manual file transfer
 
-1. Rename the `.mapeosettings` file to .tar 
+1. Rename the `.mapeosettings` file to .tar
 2. Then expand .tar file by double clicking to open it
 3. Copy that folder onto the phone
 
@@ -86,7 +86,7 @@ Mapeo Desktop supports importing `.mapeosettings` files in the user interface.
 
 After you've created your settings file, you can import it by navigating to **File-&gt;Import Configuration...**.
 
-![](https://github.com/gmaclennan/mapeo-docs/tree/b895606f8de0f8e815b04194aee0b28148c70b7a/docs/en/.gitbook/assets/configuration-desktop.png)
+![](.gitbook/assets/configuration-desktop.png)
 
 ### Manual import
 
@@ -108,4 +108,3 @@ presets.json
 icons.svg
 etc...
 ```
-
