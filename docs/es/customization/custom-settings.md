@@ -86,7 +86,7 @@ Mapeo Desktop supports importing `.mapeosettings` files in the user interface.
 
 After you've created your settings file, you can import it by navigating to **File-&gt;Import Configuration...**.
 
-![](.gitbook/assets/configuration-desktop.png)
+![](https://github.com/gmaclennan/mapeo-docs/tree/f04e4854fead8b7af1fab1bcc114238299702c48/docs/en/customization/.gitbook/assets/configuration-desktop.png)
 
 ### Manual import
 
@@ -108,3 +108,4 @@ presets.json
 icons.svg
 etc...
 ```
+
