@@ -7,7 +7,7 @@ description: >-
 
 ![](.gitbook/assets/screenshot.png)
 
-### Create and edit maps together
+### Crear y editar mapas juntos
 
 ![](.gitbook/assets/mapeo-offline.png)
 
