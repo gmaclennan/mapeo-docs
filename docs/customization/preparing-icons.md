@@ -22,7 +22,7 @@ From Illustrator, File &gt; Export
 * With the artboard box ticked
 * Additional settings as below. These are how Mapbox says to export icons for svgs to use on their maps too.
 
-![When exporting icons from Adobe Illustrator](../.gitbook/assets/screen_shot_2019-04-15_at_4.47.37_pm.png)
+![When exporting icons from Adobe Illustrator](../assets/screen_shot_2019-04-15_at_4.47.37_pm.png)
 
 ### Troubleshooting
 
@@ -32,14 +32,14 @@ If you have trouble viewing your icons, [check this troubleshooting guide create
 
 The icons need to read by MAPEO in two sizes: 100 and 24 pixels. For that reason there is a specific file naming convention:
 
-* _name_\*\*-100px\*\*.svg 
+* _name_\*\*-100px\*\*.svg
 * _name_\*\*-24px\*\*.svg
 
 Each icon can be duplicated and renamed so that there is one of each. They are opened and read by the .json files in the "preset" folder. Verify that "name" is correctly entered where needed \(more on this in the next section\). The build script will process the pixel size suffix.
 
 ## Saving icons
 
-Create a directory named `icons` and put all icons in there according to the above naming convention. 
+Create a directory named `icons` and put all icons in there according to the above naming convention.
 
 The directory should look like this:
 
@@ -53,5 +53,4 @@ boundary-100px.svg  cave-100px.svg      estrella-100px.svg   hills-100px.svg    
 boundary-24px.svg   cave-24px.svg       estrella-24px.svg    hills-24px.svg       lake-24px.svg      plant-24px.svg   special-site-24px.svg   threat-24px.svg
 ```
 
-![](../.gitbook/assets/screenshot-from-2020-03-18-16-45-27.png)
-
+![](../assets/screenshot-from-2020-03-18-16-45-27.png)
