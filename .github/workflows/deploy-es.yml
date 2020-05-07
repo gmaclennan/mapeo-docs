@@ -19,7 +19,7 @@ jobs:
     # Create branch from docs/es folder
     - name: Run a multi-line script
       env:
-        SUBPATH: docs/es
+        LANG: es
       run: |
-        git subtree split --prefix $SUBPATH -b $SUBPATH
-        git push -f origin $SUBPATH:$SUBPATH
+        git subtree split --prefix docs/$LANG -b docs-$LANG
+        git push -f origin docs-$LANG:docs-$LANG
