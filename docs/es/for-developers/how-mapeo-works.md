@@ -26,7 +26,7 @@ The user interface and front-end logic of Mapeo Mobile is written in React Nativ
 
 We chose React Native because it means we can share code between desktop and mobile and it is cross-platform. Currently we only support Android, but we have a working iOS prototype with minimal changes to the code.
 
-The database is also written in JavaScript. We run the database in a separate process in the app in Node.js compiled for Android. The database and the front-end speak to each other via a local http \(web\) _\*\*_server and RPC channels.
+The database is also written in JavaScript. We run the database in a separate process in the app in Node.js compiled for Android. The database and the front-end speak to each other via a local http \(web\) \_\*\*\_server and RPC channels.
 
 ## **Offline maps**
 
