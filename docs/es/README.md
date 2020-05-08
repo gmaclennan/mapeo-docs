@@ -9,13 +9,13 @@ description: >-
 
 ### Crear y editar mapas juntos
 
-![](.gitbook/assets/mapeo-offline.png)
+![](.gitbook/assets/mapeo-offline%20%281%29.png)
 
 Mapeo is an open source, local-first map editor. Mapeo makes it easy for individuals or teams to create maps and organize stories and knowledge.
 
 ## Built on solid foundations
 
-![](.gitbook/assets/mapeo-osm.png)
+![](.gitbook/assets/mapeo-osm%20%281%29.png)
 
 Mapeo leverages the same easy-to-use editor and flexible data structure as OpenStreetMap. It is powered by a peer-to-peer database that enables offline collaboration and control over data sharing.
 
