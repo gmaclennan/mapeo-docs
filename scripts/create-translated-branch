@@ -60,7 +60,7 @@ cp -aRf translations/${LANG_CODE}/* translated-branch/docs/
 cp -f LICENSE translated-branch/LICENSE
 
 # Copy gitbook config file
-cp -f .gitbook.yml translated-branch/.gitbook
+cp -f .gitbook.yml translated-branch/.gitbook.yml
 
 # Create README.md for translated branch
 cat << 'EOF' > translated-branch/README.md
