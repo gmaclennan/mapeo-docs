@@ -23,5 +23,7 @@ jobs:
         # **CHANGE THIS** for other languages
         LANG_CODE: es
       run: |
+        git config --global user.email "developer@digital-democracy.org"
+        git config --global user.name "Dd Github Bot"
         ./scripts/create-translated-branch $LANG_CODE
         git push -f origin translations-$LANG_CODE:translations-$LANG_CODE
