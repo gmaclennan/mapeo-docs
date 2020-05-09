@@ -150,8 +150,6 @@ npm run -s build
 
 This -s tells npm to be silent, so that you only see errors that are meaningful to you.
 
-
-
 If you succeeded, you'll see the following output and a new folder called `build` with a `.mapeosettings` file inside of it.
 
 ```text
@@ -163,12 +161,11 @@ $ npm run -s build
 ✓ Generated png sprite for Mapbox (81ms)
 ✓ Generated png icons for Mapeo Mobile (607ms)
 ✓ Successfully created file 'build/mapeo-default-settings-v2.1.0.mapeosettings' (total 1299ms)
-
 ```
 
- You'll also see  a `.mapeosettings` file inside of the `build` directory.
+You'll also see a `.mapeosettings` file inside of the `build` directory.
 
-![This is the .mapeosettings file you&apos;ll need in the next section](../assets/screenshot-from-2020-03-18-17-12-16.png)
+![This is the .mapeosettings file you&apos;ll need in the next section](../.gitbook/assets/screenshot-from-2020-03-18-17-12-16.png)
 
 ### What is a .mapeosettings file?
 
@@ -178,7 +175,7 @@ A `.mapeosettings` file is a **tar** file, similar to a zip file. You can see th
 
 If you already have done this and you are recreating presets from scratch, you may want to purge node\_modules and install updated versions of the dependencies
 
-![To update to latest dependencies, delete this folder and reinstall](../assets/screen_shot_2019-05-07_at_11.01.07_am.png)
+![To update to latest dependencies, delete this folder and reinstall](../.gitbook/assets/screen_shot_2019-05-07_at_11.01.07_am.png)
 
 In Mac or Linux, in the terminal:
 
@@ -188,3 +185,4 @@ npm install
 ```
 
 If you're having more issues, please [open an issue on the GitHub repository](https://github.com/digidem/mapeo-default-settings/issues/new) or e-mail our support hotline.
+
