@@ -1,3 +1,7 @@
+---
+description: test
+---
+
 # Installation
 
 ## Install on Android \(beta\)
@@ -13,7 +17,7 @@
 3. Wait for installer to finish, which will open the Mapeo on completion
 4. You may need to click **Allow Access** if you have Windows Defender enabled
 
-![](assets/allow-access.png)
+![](.gitbook/assets/allow-access.png)
 
 ## Install on Mac
 
@@ -23,10 +27,11 @@
 4. Find Mapeo in your **Applications** folder and right click to open
 5. Click **Open**—this verification only happens the first time you use Mapeo
 
-![](assets/instructions.png)
+![](.gitbook/assets/instructions.png)
 
 ## Install on Linux
 
 1. [Download for Linux](https://www.github.com/digidem/mapeo-desktop/releases)
 2. Pick the release that works for you. We recommend using the `.deb` package for most systems.
 3. Double-click the `.deb` installer.
+
