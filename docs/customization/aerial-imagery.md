@@ -36,7 +36,7 @@ The automatic importer attempts to use `.jpg`, `.png`, and `.jpeg` as the format
 
 It will accept `.tar` files. It does not currently support the `.mbtiles` format, [Pull Requests welcome](https://github.com/digidem/mapeo-desktop/issues/103).
 
-![](../.gitbook/assets/import.png)
+![](../.gitbook/assets/import%20%281%29.png)
 
 ### Manual Import
 

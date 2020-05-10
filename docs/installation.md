@@ -1,7 +1,3 @@
----
-description: test
----
-
 # Installation
 
 ## Install on Android \(beta\)
@@ -17,7 +13,7 @@ description: test
 3. Wait for installer to finish, which will open the Mapeo on completion
 4. You may need to click **Allow Access** if you have Windows Defender enabled
 
-![](.gitbook/assets/allow-access.png)
+![](.gitbook/assets/allow-access%20%281%29.png)
 
 ## Install on Mac
 
@@ -27,7 +23,7 @@ description: test
 4. Find Mapeo in your **Applications** folder and right click to open
 5. Click **Open**—this verification only happens the first time you use Mapeo
 
-![](.gitbook/assets/instructions.png)
+![](.gitbook/assets/instructions%20%281%29.png)
 
 ## Install on Linux
 
