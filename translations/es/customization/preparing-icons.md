@@ -22,7 +22,7 @@ From Illustrator, File &gt; Export
 * With the artboard box ticked
 * Additional settings as below. These are how Mapbox says to export icons for svgs to use on their maps too.
 
-![When exporting icons from Adobe Illustrator](../.gitbook/assets/screen_shot_2019-04-15_at_4.47.37_pm.png)
+![When exporting icons from Adobe Illustrator](../.gitbook/assets/screen_shot_2019-04-15_at_4.47.37_pm%20%281%29.png)
 
 ### Troubleshooting
 
