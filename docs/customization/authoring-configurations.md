@@ -175,7 +175,7 @@ A `.mapeosettings` file is a **tar** file, similar to a zip file. You can see th
 
 If you already have done this and you are recreating presets from scratch, you may want to purge node\_modules and install updated versions of the dependencies
 
-![To update to latest dependencies, delete this folder and reinstall](../.gitbook/assets/screen_shot_2019-05-07_at_11.01.07_am.png)
+![To update to latest dependencies, delete this folder and reinstall](../.gitbook/assets/screen_shot_2019-05-07_at_11.01.07_am%20%281%29.png)
 
 In Mac or Linux, in the terminal:
 
