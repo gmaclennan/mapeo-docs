@@ -82,6 +82,10 @@ git commit -am "Deploy [${LANG_CODE}] translations from ${SHA}"
 # Create new branch from the `translated-branch` folder
 git subtree split --prefix translated-branch -b translations-$LANG_CODE
 
+# Add an empty commit to force Gitbook to update
+# (Gitbook does not update based on the first commit in the commit history)
+git commit --allow-empty -m 'Force gitbook update'
+
 # Switch back to master branch where we started
 git checkout master
 
