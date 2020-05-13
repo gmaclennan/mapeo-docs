@@ -1,6 +1,6 @@
 ---
 description: >-
-  Mapeo is an open source, local-first map editor. Mapeo makes it easy for teams to create maps and organize stories and knowledge. Test.
+  Mapeo is an open source, local-first map editor. Mapeo makes it easy for teams to create maps and organize stories and knowledge. Update Test.
 ---
 
 # Introduction Bengali
