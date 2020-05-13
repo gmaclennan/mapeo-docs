@@ -12,7 +12,7 @@ description: >-
 
 ![](.gitbook/assets/mapeo-offline%20%281%29.png)
 
-Mapeo is an open source, local-first map editor. Mapeo makes it easy for individuals or teams to create maps and organize stories and knowledge.
+Mapeo is an open source, local-first map editor. Mapeo makes it easy for individuals or teams to create maps and organize stories and knowledge. Update test.
 
 ## Built on solid foundations
 
