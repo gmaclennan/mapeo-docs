@@ -1,5 +1,5 @@
 ---
-description: test it
+description: test
 ---
 
 # Installation
@@ -34,3 +34,4 @@ description: test it
 1. [Download for Linux](https://www.github.com/digidem/mapeo-desktop/releases)
 2. Pick the release that works for you. We recommend using the `.deb` package for most systems.
 3. Double-click the `.deb` installer.
+
