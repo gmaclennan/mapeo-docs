@@ -165,7 +165,7 @@ $ npm run -s build
 
 You'll also see a `.mapeosettings` file inside of the `build` directory.
 
-![This is the .mapeosettings file you&apos;ll need in the next section](../.gitbook/assets/screenshot-from-2020-03-18-17-12-16.png)
+![This is the .mapeosettings file you&apos;ll need in the next section](../.gitbook/assets/screenshot-from-2020-03-18-17-12-16%20%281%29.png)
 
 ### What is a .mapeosettings file?
 
