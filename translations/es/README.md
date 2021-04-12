@@ -5,7 +5,7 @@ description: >-
 
 # Introducción
 
-![](.gitbook/assets/screenshot%20%281%29.png)
+![](.gitbook/assets/screenshot%20%283%29.png)
 
 ### Crear y editar mapas juntos
 
@@ -21,7 +21,7 @@ Mapeo leverages the same easy-to-use editor and flexible data structure as OpenS
 
 ## Supporting indigenous rights, throughout the world.
 
-![](.gitbook/assets/mapeo-indigenous%20%281%29.png)
+![](.gitbook/assets/mapeo-indigenous%20%282%29.png)
 
 We are building Mapeo with indigenous communities in the Amazon, who asked for an easier way to create and edit their own maps so as to defend their lands and cultures.
 
