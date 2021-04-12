@@ -4,9 +4,9 @@ title: Installing Mapeo
 sidebar_label: Installation
 ---
 
-## Install on Android (beta)
+## Instalar en Android (beta)
 
-1. <a href="https://www.github.com/digidem/mapeo-mobile/releases" target="_blank">Download for Mobile</a>
+1. <a href="https://www.github.com/digidem/mapeo-mobile/releases" target="_blank">Descargar para móvil</a>
 2. Navigate to the above page on your mobile device and click 'assets' under the most version.
 3. Download the `.apk` file onto your phone using the web browser.
 4. Open the `.apk` file in the the Downloads folder of your phone.
