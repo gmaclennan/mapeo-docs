@@ -47,6 +47,7 @@ fi
 
 # If a translated branch already exists, add the subtree back in
 if git ls-remote --exit-code --heads origin "refs/heads/translations-${LANG_CODE}"; then
+  git fetch origin "refs/heads/translations-${LANG_CODE}"
   # Checkout local branch (TODO: do this without switching branch)
   git checkout "translations-${LANG_CODE}"
   # Switch to detached HEAD
