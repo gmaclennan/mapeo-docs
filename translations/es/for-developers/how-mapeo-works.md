@@ -2,7 +2,7 @@
 
 ## **Peer-to-peer Database**
 
-Unlike traditional apps where all the data is stored on a single server \(in the cloud or in an office\), the database is integrated into the app on the device, and every device has a copy of all the data. We made this choice so that Mapeo can work entirely offline and does not need the user to set up any database or machine for storing the data. If any device is lost, synchronizing a new device with any other device in the project will restore the data. This peer-to-peer database also means that users can transfer data to a computer in the field without internet, and several users with computers can all work on the same dataset and share edits.
+TEST TRANSLATION. We made this choice so that Mapeo can work entirely offline and does not need the user to set up any database or machine for storing the data. If any device is lost, synchronizing a new device with any other device in the project will restore the data. This peer-to-peer database also means that users can transfer data to a computer in the field without internet, and several users with computers can all work on the same dataset and share edits.
 
 ## **Synchronization**
 
