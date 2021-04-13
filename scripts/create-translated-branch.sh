@@ -13,17 +13,17 @@ function onFailure() {
   exit 1
 }
 
-BRANCH=`git rev-parse --abbrev-ref HEAD`
+BRANCH=$(git rev-parse --abbrev-ref HEAD)
 LANG_CODE=${1:-}
 SHA=$(git rev-parse --short=7 HEAD)
 
-if [ $BRANCH != 'master' ]; then
+if [ "$BRANCH" != 'master' ]; then
   echo "Branch must be 'master' to create a translated branch"
   exit 1
 fi
 
 # Check for uncommited changes
-if [ ! -z "$(git status --porcelain)" ]; then
+if [ -n "$(git status --porcelain)" ]; then
   echo "You have uncommited changes on your branch. Please commit them and try again"
   exit 1
 fi
@@ -45,25 +45,28 @@ if [[ ! -f "translations/${LANG_CODE}/README.md" ||  ! -f "translations/${LANG_C
   exit 1
 fi
 
-# Switch to detached HEAD so we can go back to master afterwards
-git checkout --detach
+# If a translated branch already exists, add the subtree back in
+if git ls-remote --exit-code --heads origin "refs/heads/translations-${LANG_CODE}"; then
+  # Checkout local branch (TODO: do this without switching branch)
+  git checkout "translations-${LANG_CODE}"
+  # Switch to detached HEAD
+  git checkout $SHA
+  git subtree add --prefix translated-branch "translations-${LANG_CODE}"
+  # Remove the docs, since we're going to overwrite them from master
+  rm -rf translated-branch/docs
+else
+  # Switch to detached HEAD so we can go back to master afterwards
+  git checkout --detach
 
-mkdir -p translated-branch/docs/.gitbook
+  mkdir -p translated-branch
+  # Copy LICENSE
+  cp -f LICENSE translated-branch/LICENSE
 
-# Copy gitbook assets across
-cp -aRf docs/.gitbook/. translated-branch/docs/.gitbook
+  # Copy gitbook config file
+  cp -f .gitbook.yml translated-branch/.gitbook.yml
 
-# Copy translated files across
-cp -aRf translations/${LANG_CODE}/* translated-branch/docs/
-
-# Copy LICENSE
-cp -f LICENSE translated-branch/LICENSE
-
-# Copy gitbook config file
-cp -f .gitbook.yml translated-branch/.gitbook
-
-# Create README.md for translated branch
-cat << 'EOF' > translated-branch/README.md
+  # Create README.md for translated branch
+  cat << 'EOF' > translated-branch/README.md
 # Auto-generated translation branch
 
 This branch contains translations of the `master` branch. To change the files
@@ -73,14 +76,24 @@ this repo. Once that PR is merged, this branch will be updated. Any changes to
 this branch will be overwritten whenever there are new translations from Crowdin.
 EOF
 
-# Stage new files
-git add .
+  git add .
+  git commit -m "Initiated branch for ${LANG_CODE}"
+fi
 
-# Commit changes
+mkdir -p translated-branch/docs/.gitbook
+
+# Copy gitbook assets across
+cp -aRf docs/.gitbook/. translated-branch/docs/.gitbook
+
+# Copy translated files across
+cp -aRf translations/${LANG_CODE}/* translated-branch/docs/
+
+# Stage & Commit translated files
+git add .
 git commit -am "Deploy [${LANG_CODE}] translations from ${SHA}"
 
 # Create new branch from the `translated-branch` folder
-git subtree split --prefix translated-branch -b translations-$LANG_CODE
+git subtree split --prefix translated-branch -b "translations-$LANG_CODE"
 
 # Switch back to master branch where we started
 git checkout master
