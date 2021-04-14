@@ -13,7 +13,7 @@ Test Albanian translation
 /sdcard/Android/data/com.mapeo/files/styles/default
 ```
 
-This folder should contain these files directly under this `default` folder:
+Second test for Albanian
 
 ```text
 style.json
