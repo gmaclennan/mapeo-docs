@@ -15,7 +15,7 @@ on:
 
 jobs:
   build:
-    name: Build [${ env.LANG_CODE }]
+    name: Build [${{ env.LANG_CODE }}]
     runs-on: ubuntu-latest
 
     steps:
