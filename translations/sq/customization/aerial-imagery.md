@@ -13,7 +13,7 @@ Test Albanian translation
 /sdcard/Android/data/com.mapeo/files/styles/default
 ```
 
-Second test for Albanian
+Third test for Albanian
 
 ```text
 style.json
