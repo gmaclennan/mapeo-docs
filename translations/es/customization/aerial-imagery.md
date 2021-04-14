@@ -7,7 +7,7 @@ description: >-
 
 ## Mapeo Mobile
 
-Test TRANSLATION:
+Offline maps must be placed in this folder:
 
 ```text
 /sdcard/Android/data/com.mapeo/files/styles/default
